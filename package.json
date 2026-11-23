@@ -1,0 +1,34 @@
+{
+  "name": "rescueplan-kenya",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.mjs",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@netlify/database": "^2.0.3",
+    "@netlify/identity": "^2.0.1",
+    "@netlify/server": "^0.1.6",
+    "csv-parse": "^7.0.3",
+    "drizzle-orm": "^1.0.0-beta.22",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "drizzle-kit": "^1.0.0-beta.22",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^6.4.6"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  }
+}
